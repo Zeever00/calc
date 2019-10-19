@@ -10,7 +10,8 @@ namespace calcmln
     {
         static void Main(string[] args)
         {
-            while (true)
+            bool abc = true;
+            while (abc)
             {
                 Console.WriteLine("0. Wyjscie");
                 Console.WriteLine("1. Dodawanie");
@@ -20,7 +21,14 @@ namespace calcmln
                 switch (menuOption)
                 {
                     case 0:
+                        abc = false;
+                        break;
+                    case 1:
 
+                        break;
+                    case 2:
+
+                        break;
                 }
             }
         }
