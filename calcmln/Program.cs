@@ -16,7 +16,9 @@ namespace calcmln
                 Console.WriteLine("0. Wyjscie");
                 Console.WriteLine("1. Dodawanie");
                 Console.WriteLine("2. Odejmowanie");
+                Console.WriteLine("3. Mnozenie");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
+
 
                 switch (menuOption)
                 {
@@ -27,6 +29,9 @@ namespace calcmln
 
                         break;
                     case 2:
+
+                        break;
+                    case 3:
 
                         break;
                 }
