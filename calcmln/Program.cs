@@ -14,11 +14,14 @@ namespace calcmln
             while (abc)
             {
                 Console.WriteLine("87. Wyjscie");
-                Console.WriteLine("1. ADD");
+                Console.WriteLine("1. Dodawanie");
                 Console.WriteLine("2. Odejmowanie");
+                Console.WriteLine("3. Mnozenie");
                 Console.WriteLine("4. Mnozenie");
+              
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 int numberOne = Convert.ToInt32(Console.ReadLine());
+
 
                 switch (menuOption)
                 {
